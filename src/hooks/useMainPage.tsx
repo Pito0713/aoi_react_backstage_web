@@ -3,11 +3,11 @@ import SettingPage from "../page/Setting";
 export const useMainPages = () => {
   return [
     {
-      path: "/mainPage",
+      path: "/",
       element: <ProductPage />,
     },
     {
-      path: "/mainPage",
+      path: "/settingPage",
       element: <SettingPage />,
     },
   ]
